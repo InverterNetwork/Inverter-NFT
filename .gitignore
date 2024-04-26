@@ -1,0 +1,21 @@
+# Compiler files
+cache/
+out/
+
+# Test files
+coverage/
+lcov.info
+.gas-snapshot
+
+# Ignores development broadcast logs
+!/broadcast
+/broadcast/*
+/broadcast/*/31337/
+
+# Dotenv file
+.env
+
+.DS_Store
+test/.DS_Store
+# Node
+/node_modules
